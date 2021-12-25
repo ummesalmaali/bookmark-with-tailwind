@@ -81,7 +81,15 @@
           <li class="cursor-pointer">Contact</li>
           <button
             type="button"
-            class="bg-bookmark-red rounded-md text-white px-7 py-3 uppercase"
+            class="
+              bg-bookmark-red
+              rounded-md
+              text-white
+              px-7
+              py-3
+              uppercase
+              lg:hover:bg-bookmark-purple
+            "
           >
             Login
           </button>
@@ -140,7 +148,7 @@
       <div
         class="
           hidden
-          md:block
+          lg:block
           overflow-hidden
           bg-bookmark-purple
           rounded-l-full
@@ -165,13 +173,215 @@
       </div>
       <!-- feature#1 -->
       <div class="relative mt-20 lg:mt-24">
-        <div class="container flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-          <img
-            class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full"
-            src="/src/img/illustration-features-tab-1.png"
-            alt="feature-image"
-          />
+        <div
+          class="
+            container
+            flex flex-col
+            lg:flex-row
+            items-center
+            justify-center
+            gap-x-24
+          "
+        >
+          <!-- image -->
+          <div class="flex flex-1 flex-col justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full"
+              src="/src/img/illustration-features-tab-1.png"
+              alt="feature-image"
+            />
+          </div>
+
+          <!-- content -->
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-bookmark-blue">Bookmark in One Click</h1>
+            <p
+              class="
+                text-bookmark-grey
+                my-4
+                text-center
+                lg:text-left
+                sm:w-3/4
+                lg:w-full
+              "
+            >
+              Organize your bookmark however you like. Our simple drag-and-drop
+              interface gives you complete over how you manage your favourite
+              sites
+            </p>
+            <button
+              type="button"
+              class="btn btn-purple hover:bg-bookmark-white hover:text-black"
+            >
+              More Info
+            </button>
+          </div>
         </div>
+        <!-- rounded rectangle -->
+        <div
+          class="
+            hidden
+            lg:block
+            overflow-hidden
+            bg-bookmark-purple
+            rounded-r-full
+            absolute
+            h-80
+            w-2/4
+            -bottom-24
+            -left-38
+          "
+        ></div>
+      </div>
+      <!-- feature#2-->
+      <div class="relative mt-20 lg:mt-52">
+        <div
+          class="
+            container
+            flex flex-col
+            lg:flex-row-reverse
+            items-center
+            justify-center
+            gap-x-24
+          "
+        >
+          <!-- image -->
+          <div class="flex flex-1 flex-col justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full"
+              src="/src/img/illustration-features-tab-2.png"
+              alt="feature-image"
+            />
+          </div>
+
+          <!-- content -->
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-bookmark-blue">Intelligent Search</h1>
+            <p
+              class="
+                text-bookmark-grey
+                my-4
+                text-center
+                lg:text-left
+                sm:w-3/4
+                lg:w-full
+              "
+            >
+              Our powerful search feature will help you find your saved sites in
+              no time at all. No need to travel of your bookmarks.
+            </p>
+            <button
+              type="button"
+              class="btn btn-purple hover:bg-bookmark-white hover:text-black"
+            >
+              More Info
+            </button>
+          </div>
+        </div>
+        <!-- rounded rectangle -->
+        <div
+          class="
+            hidden
+            lg:block
+            overflow-hidden
+            bg-bookmark-purple
+            rounded-l-full
+            absolute
+            h-80
+            w-2/4
+            -bottom-24
+            -right-36
+          "
+        ></div>
+      </div>
+      <!-- feature#3 -->
+      <div class="relative mt-20 lg:mt-52">
+        <div
+          class="
+            container
+            flex flex-col
+            lg:flex-row
+            items-center
+            justify-center
+            gap-x-24
+          "
+        >
+          <!-- image -->
+          <div class="flex flex-1 flex-col justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full"
+              src="/src/img/illustration-features-tab-1.png"
+              alt="feature-image"
+            />
+          </div>
+
+          <!-- content -->
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-bookmark-blue">Share your Bookmarks</h1>
+            <p
+              class="
+                text-bookmark-grey
+                my-4
+                text-center
+                lg:text-left
+                sm:w-3/4
+                lg:w-full
+              "
+            >
+              Easily share your bookmarks and collections with others. Create a
+              shareable link that you can send to your friends and colleagues
+              within one click of a button.
+            </p>
+            <button
+              type="button"
+              class="btn btn-purple hover:bg-bookmark-white hover:text-black"
+            >
+              More Info
+            </button>
+          </div>
+        </div>
+        <!-- rounded rectangle -->
+        <div
+          class="
+            hidden
+            lg:block
+            overflow-hidden
+            bg-bookmark-purple
+            rounded-r-full
+            absolute
+            h-80
+            w-2/4
+            -bottom-24
+            -left-38
+          "
+        ></div>
+      </div>
+    </section>
+    <!-- Download section -->
+    <section class="py-20 mt-20">
+      <!-- heading -->
+      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+        <h1 class="text-3xl text-center text-bookmark-blue mt-4">
+          Download The Extension
+        </h1>
+        <p class="text-center text-bookmark-grey mt-4">
+          We've got more browsers on pipeline. Please do let us know if you got
+          a new browser and we will add it to the list.
+        </p>
+      </div>
+      <!-- cards -->
+      <div
+        class="
+          container
+          grid-cols-1
+          md:grid-cols-2
+          lg:grid-cols-3
+          gap-16
+          max-w-screen
+          mt-16
+        "
+      >
+        <!-- For every single card -->
       </div>
     </section>
   </body>
